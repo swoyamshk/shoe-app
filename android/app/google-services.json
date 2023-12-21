@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "638828193983",
+    "project_id": "trendtrove-acca7",
+    "storage_bucket": "trendtrove-acca7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638828193983:android:d4b849399487f6facdbe0a",
+        "android_client_info": {
+          "package_name": "com.example.trendtrove"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3QM3sFfHaMq8Pg97FR4Q7qgwRyB1Dr-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
