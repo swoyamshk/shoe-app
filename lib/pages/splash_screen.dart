@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:trendtrove/home_screen.dart';
-import 'package:trendtrove/login_screen.dart';
+import 'package:trendtrove/pages/home_screen.dart';
+import 'package:trendtrove/pages/login_screen.dart';
 
 class SplashScreen extends StatefulWidget{
   const SplashScreen({super.key});

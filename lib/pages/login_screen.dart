@@ -2,11 +2,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:trendtrove/auth_services.dart';
-import 'package:trendtrove/home_screen.dart';
+import 'package:trendtrove/pages/home_screen.dart';
 import 'package:trendtrove/pages/admin.dart';
-import 'package:trendtrove/pages/firebase_auth_implemenatation/firebase_auth_services.dart';
-import 'package:trendtrove/pages/shop_page.dart';
-import 'package:trendtrove/register_screen.dart';
+import 'package:trendtrove/pages/register_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -14,8 +12,6 @@ class LoginScreen extends StatefulWidget {
 }
 TextStyle myStyle = TextStyle(fontSize: 25);
 class _LoginScreenState extends State<LoginScreen> {
-  bool _isSigning = false;
-  final FirebaseAuthService _auth = FirebaseAuthService();
   late String email;
   late String password;
   TextEditingController _emailController = TextEditingController();

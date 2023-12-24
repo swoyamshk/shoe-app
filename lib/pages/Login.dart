@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:trendtrove/splash_screen.dart';
+import 'package:trendtrove/pages/splash_screen.dart';
 
-import 'models/cart.dart';
+import '../models/cart.dart';
 
 class LoginApp extends StatelessWidget {
   LoginApp({super.key});

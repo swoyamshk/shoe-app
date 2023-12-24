@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:trendtrove/login_screen.dart';
+import 'package:trendtrove/pages/login_screen.dart';
 import 'package:trendtrove/pages/firebase_auth_implemenatation/firebase_auth_services.dart';
 
 
@@ -12,7 +12,6 @@ class RegisterScreen extends StatefulWidget {
 TextStyle myStyle = TextStyle(fontSize: 25);
 
 class _RegisterScreenState extends State<RegisterScreen> {
-  bool _isSigning = false;
   final FirebaseAuthService _auth = FirebaseAuthService();
 
   TextEditingController _usernameController = TextEditingController();
@@ -182,7 +181,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
 
   void registerScreen() async {
-    String username = _usernameController.text;
     String email = _emailController.text;
     String password = _passwordController.text;
 
